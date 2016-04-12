@@ -2,14 +2,13 @@
 
 #include <string>
 #include <sstream>
-#include <windows.h>
+//#include <windows.h>
 #include <iostream>
 #include <conio.h>
 #include <sstream>
 #include <math.h>
 #include <gl\gl.h>
 #include <gl\glu.h>
-#include "GL/freeglut.h"
 #include <GL/glut.h>
 #pragma comment(lib, "OpenGL32.lib")
 

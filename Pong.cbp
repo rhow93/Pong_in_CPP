@@ -42,7 +42,9 @@
 			<Add library="gdi32" />
 			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
 		</Linker>
-		<Unit filename="main.cpp" />
+		<Unit filename="main.cpp">
+			<Option compiler="gcc" use="1" buildCommand="gcc main.cpp -lglut" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
